@@ -5,4 +5,14 @@
         "javascript",
         "javascriptreact"
     ],
+    "python.pythonPath": "api/.venv/bin/python3",
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleArgs": [
+        "--max-line-leng=88"
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "black",
+    "[python]": {
+        "editor.formatOnSave": true
+    }
 }
