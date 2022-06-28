@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 flask = "*"
 requests = "==2.25.1"
+flask-cors = "*"
 
 [dev-packages]
 
